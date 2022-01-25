@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    /* border:solid 1px red; */
+    font-family: 'Rubik', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("resources/sandro-schuh-HgwY_YQ1m0w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+
+h1{
+    color:white;
+    font-size: 6em;
+}
+
+p{
+    color: white;
+    font-size: 1.4em;
+    padding-left:8px;
+}
+
+nav{
+    height: 40px;
+    width:100%;
+    /* border:solid 1px aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    border-bottom: rgba(255, 255, 255, 0.288) solid 4px;
+}
+
+#logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4em;
+    text-shadow: -2px 0px 6px rgb(39, 80, 0);
+
+}
+
+nav ul{
+    display:flex;
+    /* background-color: yellow; */
+    width:180px;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style-type: none;
+    /* background-color: violet; */
+    flex-grow:0;
+    color: rgb(39, 80, 0);
+}
+
+nav ul li:hover{
+    color: white;
+}
+
+#banner{
+    margin:80px 40px 0 40px;
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#info{
+    padding: 10px;
+}
+
+#banner img{
+    width:30rem;
+    height: 100%;
+}
